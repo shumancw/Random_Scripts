@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Navidrome Database Restore Script
-# Location: /zoom/containers/navidrome
+# Navidrome Database Restore Script for Docker Compose Deployments
+# Location Assumes:
+# -->./navidrome_data_location
+# --> --> data
+# --> --> --> backups
 
 set -e  # Exit on error
 
